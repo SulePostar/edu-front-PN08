@@ -1,0 +1,27 @@
+ol, ul {
+  list-style: none;
+}
+
+.navigator {
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.navigator li {
+  display: block;
+  float: left;
+  margin-left: 4px;
+  border: 1px solid #369;
+}
+
+.navigator a {
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+  color: #369;
+}
+
+.navigator a:hover {
+  background-color: #369;
+  color: white;
+}
