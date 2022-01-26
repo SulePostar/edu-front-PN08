@@ -1,2 +1,2 @@
-# edu-front-PN08
-end of PN08 video
+# edu-front-PN06
+E-ducation web app: header and footer defined

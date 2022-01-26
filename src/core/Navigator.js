@@ -1,15 +1,15 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigator = () => {
   return (
     <ul className='navigator'>
-      <li><Link to='/home'>Home</Link></li>
-      <li><Link to='/team'>Team</Link></li>
-      <li><Link to='/contact'>Contact</Link></li>
-      <li><Link to='/dashboard'>Dashboard</Link></li>
-      <li><Link to='/mentors'>Mentors</Link></li>
-      <li><Link to='/students'>Students</Link></li>
-      <li><Link to='/projects'>Projects</Link></li>
+      <li><NavLink to='/home' activeClassName='active'>Home</NavLink></li>
+      <li><NavLink to='/team' activeClassName='active'>Team</NavLink></li>
+      <li><NavLink to='/contact' activeClassName='active'>Contact</NavLink></li>
+      <li><NavLink to='/dashboard' activeClassName='active'>Dashboard</NavLink></li>
+      <li><NavLink to='/mentors' activeClassName='active'>Mentors</NavLink></li>
+      <li><NavLink to='/students' activeClassName='active'>Students</NavLink></li>
+      <li><NavLink to='/projects' activeClassName='active'>Projects</NavLink></li>
     </ul>
   );
 }

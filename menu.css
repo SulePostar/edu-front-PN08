@@ -3,29 +3,25 @@ ol, ul {
 }
 
 .navigator {
+  margin-top: 24px;
   margin-right: 24px;
 }
 
 .navigator li {
   display: block;
   float: left;
-  margin-right: 8px;
+  margin-left: 4px;
+  border: 1px solid #369;
 }
 
 .navigator a {
   display: block;
-  color: #369;
-  text-decoration: none;
-  border: 1px solid #369;
   padding: 4px;
+  text-decoration: none;
+  color: #369;
 }
 
 .navigator a:hover {
   background-color: #369;
   color: white;
-}
-
-.active {
-  background-color: maroon;
-  color: white !important;
 }
